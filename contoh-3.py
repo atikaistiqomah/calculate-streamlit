@@ -1,5 +1,12 @@
 import streamlit as st
 import pandas as pd
+
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+# Contoh: Install matplotlib
+install("matplotlib")
+
 import matplotlib.pyplot as plt
 
 !pip install matplotlib
