@@ -8,8 +8,6 @@ install("matplotlib")
 
 import matplotlib.pyplot as plt
 
-!pip install matplotlib
-# Judul aplikasi
 st.title("Aplikasi Perhitungan dengan Tabel Hasil dan Visualisasi Grafik")
 
 # Deskripsi aplikasi
