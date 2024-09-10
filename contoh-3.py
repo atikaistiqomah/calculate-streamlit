@@ -1,13 +1,5 @@
 import streamlit as st
 import pandas as pd
-import subprocess
-import sys
-
-def install(package):
-    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-
-install("matplotlib")
-
 import matplotlib.pyplot as plt
 
 st.title("Aplikasi Perhitungan dengan Tabel Hasil dan Visualisasi Grafik")
