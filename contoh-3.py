@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-pip install matplotlib
+!pip install matplotlib
 # Judul aplikasi
 st.title("Aplikasi Perhitungan dengan Tabel Hasil dan Visualisasi Grafik")
 
